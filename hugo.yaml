@@ -1,6 +1,6 @@
-baseURL: https://example.org/
+baseURL: https://vegsja.github.io/vegsja-home/
 languageCode: en-us
-title: My New Hugo Site
+title: VegSja's Home
 theme: ["PaperMod"]
 caches:
   images:
