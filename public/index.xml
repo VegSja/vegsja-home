@@ -9,13 +9,20 @@
     <lastBuildDate>Fri, 18 Apr 2025 20:51:47 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/vegsja-home/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/vegsja-home/articles/my-first-post/</link>
+      <title>How I created a landing page in 30 minutes</title>
+      <link>http://localhost:1313/vegsja-home/articles/how-i-created-a-landing-page-in-30-minutes/</link>
       <pubDate>Fri, 18 Apr 2025 20:51:47 +0200</pubDate>
-      <guid>http://localhost:1313/vegsja-home/articles/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
-&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <guid>http://localhost:1313/vegsja-home/articles/how-i-created-a-landing-page-in-30-minutes/</guid>
+      <description>&lt;p&gt;As a developer working on a new backcountry skiing app, I faced the challenge of quickly creating a landing page to introduce the product and start building a community. My app, designed to help skiers navigate the Norwegian mountains safely, isn’t ready yet, but I wanted to have something live that would allow people to sign up for a waitlist and get excited about the upcoming launch. With everything else going on, I needed to get the landing page up and running in the quickest, most efficient way possible—ideally within 30 minutes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/vegsja-home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vegsja-home/about/</guid>
+      <description>&lt;h2 id=&#34;-hey-im-vegard-sjåvik&#34;&gt;👋 Hey, I&amp;rsquo;m Vegard Sjåvik&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m a computer science graduate from &lt;a href=&#34;https://www.ntnu.no/&#34;&gt;NTNU&lt;/a&gt; (class of 2025), where I specialized in Artificial Intelligence 🤖. My academic journey focused on how machines can learn, adapt, and support humans—particularly through building solid training data foundations for robust machine learning models.&lt;/p&gt;
+&lt;p&gt;Over the years, I’ve developed a broad skill set across the stack—from frontend and backend development to infrastructure and DevOps. I&amp;rsquo;m especially passionate about the role data plays in modern software. My focus spans the full data lifecycle: from collection and processing to enabling data-driven decisions and powering advanced AI systems.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

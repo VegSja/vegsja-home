@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Articles on VegSja&#39;s Home</title>
-    <link>http://localhost:1313/vegsja-home/articles/</link>
-    <description>Recent content in Articles on VegSja&#39;s Home</description>
+    <title>Avalanche on VegSja&#39;s Home</title>
+    <link>http://localhost:1313/vegsja-home/tags/avalanche/</link>
+    <description>Recent content in Avalanche on VegSja&#39;s Home</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Apr 2025 20:51:47 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/vegsja-home/articles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/vegsja-home/tags/avalanche/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I created a landing page in 30 minutes</title>
       <link>http://localhost:1313/vegsja-home/articles/how-i-created-a-landing-page-in-30-minutes/</link>
