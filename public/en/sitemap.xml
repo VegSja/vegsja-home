@@ -2,16 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/vegsja-home/articles/</loc>
+    <loc>http://localhost:1313/vegsja-home/posts/my-first-post/</loc>
     <lastmod>2025-04-18T20:51:47+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/vegsja-home/articles/my-first-post/</loc>
+    <loc>http://localhost:1313/vegsja-home/posts/</loc>
     <lastmod>2025-04-18T20:51:47+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/vegsja-home/</loc>
     <lastmod>2025-04-18T20:51:47+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/vegsja-home/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://localhost:1313/vegsja-home/fa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/vegsja-home/"
+                />
   </url><url>
     <loc>http://localhost:1313/vegsja-home/categories/</loc>
   </url><url>

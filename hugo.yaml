@@ -2,6 +2,122 @@ baseURL: https://vegsja.github.io/vegsja-home/
 languageCode: en-us
 title: VegSja's Home
 theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Articles
+          url: articles
+          weight: 5
+        - name: Projects
+          url: projects/
+          weight: 10
+        - name: About me
+          url: about/
+          weight: 15
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  # author: Theme PaperMod
+  # # author: ["Me", "You"] # multiple authors
+  #
+  # defaultTheme: auto
+  # # disableThemeToggle: true
+  # ShowShareButtons: true
+  # ShowReadingTime: true
+  # # disableSpecial1stPost: true
+  # displayFullLangName: true
+  # ShowPostNavLinks: true
+  # ShowBreadCrumbs: true
+  # ShowCodeCopyButtons: true
+  # ShowRssButtonInSectionTermList: true
+  # ShowAllPagesInArchive: true
+  # ShowPageNums: true
+  # ShowToc: true
+  #
+  # profileMode:
+  #   enabled: false
+  #   title: PaperMod
+  #   imageUrl: "#"
+  #   imageTitle: my image
+  #   # imageWidth: 120
+  #   # imageHeight: 120
+  #   buttons:
+  #     - name: Archives
+  #       url: archives
+  #     - name: Tags
+  #       url: tags
+
+  homeInfoParams:
+    Title: "VegSja's Digital Garden 🌱"
+    Content: >
+      Hey there! I'm a computer scientist with a focus on AI and data-intensive systems. 
+      I'm currently diving deep into the world of data engineering—come learn with me as I share insights, challenges, and wins along the way.  
+      I also write about software engineering, personal projects, and the curious corners of tech that spark my interest.
+
+  socialIcons:
+    - name: github
+      title: Follow me on GitHub
+      url: "https://github.com/vegsja"
+
+
+  assets:
+    disableHLJS: true
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
 caches:
   images:
     dir: :cacheDir/images
+    
